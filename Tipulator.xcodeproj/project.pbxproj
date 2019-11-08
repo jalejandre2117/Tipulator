@@ -14,6 +14,7 @@
 		7D3649EA21A2238D008CB6C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D3649E821A2238D008CB6C5 /* LaunchScreen.storyboard */; };
 		7D3649F521A2238E008CB6C5 /* TipulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3649F421A2238E008CB6C5 /* TipulatorTests.swift */; };
 		7D364A0021A2238E008CB6C5 /* TipulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3649FF21A2238E008CB6C5 /* TipulatorUITests.swift */; };
+		7D524BB22375C5FD009ECC48 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D524BB12375C5FD009ECC48 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7D3649FB21A2238E008CB6C5 /* TipulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D3649FF21A2238E008CB6C5 /* TipulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipulatorUITests.swift; sourceTree = "<group>"; };
 		7D364A0121A2238E008CB6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D524BB12375C5FD009ECC48 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				7D3649E621A2238D008CB6C5 /* Assets.xcassets */,
 				7D3649E821A2238D008CB6C5 /* LaunchScreen.storyboard */,
 				7D3649EB21A2238D008CB6C5 /* Info.plist */,
+				7D524BB12375C5FD009ECC48 /* SettingsViewController.swift */,
 			);
 			path = Tipulator;
 			sourceTree = "<group>";
@@ -193,13 +196,16 @@
 				TargetAttributes = {
 					7D3649DB21A2238D008CB6C5 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1110;
 					};
 					7D3649EF21A2238E008CB6C5 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1110;
 						TestTargetID = 7D3649DB21A2238D008CB6C5;
 					};
 					7D3649FA21A2238E008CB6C5 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1110;
 						TestTargetID = 7D3649DB21A2238D008CB6C5;
 					};
 				};
@@ -258,6 +264,7 @@
 			files = (
 				7D3649E221A2238D008CB6C5 /* ViewController.swift in Sources */,
 				7D3649E021A2238D008CB6C5 /* AppDelegate.swift in Sources */,
+				7D524BB22375C5FD009ECC48 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +447,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tipulator.Tipulator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -457,7 +464,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tipulator.Tipulator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -476,7 +483,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tipulator.TipulatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipulator.app/Tipulator";
 			};
@@ -496,7 +503,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tipulator.TipulatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipulator.app/Tipulator";
 			};
@@ -515,7 +522,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tipulator.TipulatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Tipulator;
 			};
@@ -534,7 +541,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tipulator.TipulatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Tipulator;
 			};
