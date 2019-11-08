@@ -126,11 +126,7 @@
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Tipulator" largeTitleDisplayMode="always" id="sbf-vc-0rY">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="ellipsis.circle" catalog="system" style="done" id="jtf-Gd-7LH">
-                            <connections>
-                                <segue destination="IdG-FV-xIf" kind="push" id="sCm-95-jOr"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="ellipsis.circle" catalog="system" style="done" id="jtf-Gd-7LH"/>
                     </navigationItem>
                     <connections>
                         <outlet property="billField" destination="AhY-79-Iz5" id="TZo-2Z-PC2"/>
@@ -151,31 +147,6 @@
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="968.11594202898561" y="30.133928571428569"/>
-        </scene>
-        <!--Settings View Controller-->
-        <scene sceneID="ZFe-4R-o2w">
-            <objects>
-                <viewController id="IdG-FV-xIf" customClass="SettingsViewController" customModule="Tipulator" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="8kG-jE-QEd"/>
-                        <viewControllerLayoutGuide type="bottom" id="DIt-Mf-6YE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="VHA-Ic-3hl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="purple_gradient" translatesAutoresizingMaskIntoConstraints="NO" id="3Dj-hk-l6T">
-                                <rect key="frame" x="0.0" y="-89" width="414" height="897"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="aqV-Vk-utO"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wA6-ZF-sc7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1842.0289855072465" y="28.794642857142854"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XKX-hO-rfO">
